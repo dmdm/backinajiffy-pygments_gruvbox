@@ -195,7 +195,7 @@ class GruvboxDarkStyle(Style):
     """
 
     styles = make_style(DARK_COLORS)
-    background_color = DARK_COLORS['bg0']
+    background_color = DARK_COLORS['bg1']
     highlight_color = DARK_COLORS['bg2']
     line_number_color = DARK_COLORS['fg2']
     line_number_background_color = DARK_COLORS['bg0']
@@ -207,7 +207,7 @@ class GruvboxLightStyle(Style):
     """
 
     styles = make_style(LIGHT_COLORS)
-    background_color = LIGHT_COLORS['bg0']
+    background_color = LIGHT_COLORS['bg1']
     highlight_color = LIGHT_COLORS['bg2']
     line_number_color = LIGHT_COLORS['fg2']
     line_number_background_color = LIGHT_COLORS['bg0']
