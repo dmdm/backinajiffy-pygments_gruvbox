@@ -17,8 +17,8 @@ setup(
     packages=find_namespace_packages(include=['backinajiffy.*']),
     entry_points="""
         [pygments.styles]
-        gruvbox-light = backinajiffy.pygments_gruvbox:GruvboxLightStyle
-        gruvbox-dark = backinajiffy.pygments_gruvbox:GruvboxDarkStyle
+        dm-gruvbox-light = backinajiffy.pygments_gruvbox:GruvboxLightStyle
+        dm-gruvbox-dark = backinajiffy.pygments_gruvbox:GruvboxDarkStyle
     """,
     classifiers=[
         "Programming Language :: Python :: 3",
